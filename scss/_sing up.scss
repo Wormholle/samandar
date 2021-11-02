@@ -18,8 +18,8 @@
     height: 390px;
     background-color: $black;
     color: #fff;
-    
-    }
+
+
 
 
     h2 {
@@ -30,10 +30,12 @@
         text-align: center;
         font-size: 18px;
     }
-    h3{
+
+    h3 {
         padding: 20px 30px;
         text-align: center;
     }
+
     ul {
         list-style: none;
         color: #fff;
@@ -57,12 +59,15 @@
     }
 
 
+}
+
 .membership-block {
     display: flex;
     justify-content: space-between;
 }
-.membership-block-item-enter{
-    
+
+.membership-block-item-enter {
+
     width: 147px;
     height: 47px;
     margin-top: 50px;
@@ -70,63 +75,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    a{
-       
+
+    a {
+
         padding: 15px 30px;
         text-align: right;
         text-decoration: none;
         color: #fff;
-        font-size: 15px;    
+        font-size: 15px;
         background: $green;
     }
 }
 
 
- .membership-block-item:nth-child(2) {
-     
-     background: $red;
-     
-     a{
-        
-         color: #fff;
-         background-color: $black;
-        
-         
-         
-     }
+.membership-block-item:nth-child(2) {
 
-     h2 {
+    background: $red;
+
+    a {
+
+        color: #fff;
+        background-color: $black;
+
+
+
+    }
+
+    h2 {
         background: $black;
-        }
-     }
+    }
+}
 
 
- .membership-block-item-enter:nth-child(3) {
-     a{
-         background: $red;
-     }
- }
+.membership-block-item-enter:nth-child(3) {
+    a {
+        background: $red;
+    }
+}
 
- .sing-header-features-inner-info{
-     padding: 90px  0 0 105px;
-     font-size: 25px ;
-     span:nth-child(1){
-         color: $green;
+.membership-block-item-enter:nth-child(3) {
+    background-color: $green;
 
+    h2 {
+        background-color: $red;
+    }
 
-     }
-     span:nth-child(2){
-         color: $red;
-         
+}
 
-     }
+.sing-header-retro {
+    display: flex;
 
- }
- .sing-header-features-inner-info-img-grand{
-   margin-left:90px ;
-   width:10ppx;
- }
+    p:nth-child(1) {
+        color: $green;
+    }
 
-
-
-
+    p:nth-child(2) {
+        color: $red;
+    }
+}

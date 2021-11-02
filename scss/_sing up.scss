@@ -1,0 +1,132 @@
+.sing {
+    padding: 50px 0px;
+
+    span:nth-child(1) {
+        color: $green;
+    }
+
+    text-align: center;
+    font-size: 25px;
+
+    span:nth-child(2) {
+        color: $red;
+    }
+}
+
+.membership-block-item {
+    width: 280px;
+    height: 390px;
+    background-color: $black;
+    color: #fff;
+    
+    }
+
+
+    h2 {
+        margin: 0px 30px;
+        padding: 10px;
+        background: $green;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
+    h3{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        color: #fff;
+    }
+
+    li {
+        position: relative;
+        line-height: 2;
+        padding: 0 0 0 50px;
+    }
+
+
+    li::before {
+        content: "";
+        position: absolute;
+        border: 7px solid;
+        left: -15px;
+        top: 10px;
+        border-color: transparent transparent transparent white;
+
+    }
+
+
+.membership-block {
+    display: flex;
+    justify-content: space-between;
+}
+.membership-block-item-enter{
+    
+    width: 147px;
+    height: 47px;
+    margin-top: 50px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+       
+        padding: 15px 30px;
+        text-align: right;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;    
+        background: $green;
+    }
+}
+
+
+ .membership-block-item:nth-child(2) {
+     
+     background: $red;
+     
+     a{
+        
+         color: #fff;
+         background-color: $black;
+        
+         
+         
+     }
+
+     h2 {
+        background: $black;
+        }
+     }
+
+
+ .membership-block-item-enter:nth-child(3) {
+     a{
+         background: $red;
+     }
+ }
+
+ .sing-header-features-inner-info{
+     padding: 90px  0 0 105px;
+     font-size: 25px ;
+     span:nth-child(1){
+         color: $green;
+
+
+     }
+     span:nth-child(2){
+         color: $red;
+         
+
+     }
+
+ }
+ .sing-header-features-inner-info-img-grand{
+   margin-left:90px ;
+   width:10ppx;
+ }
+
+
+
+

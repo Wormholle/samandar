@@ -3,11 +3,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-.wrapper {
-  width: 1248px;
-  margin: 0 auto;
-  border: 1px #000 solid; }
-
 .container {
   max-width: 1100px;
   margin: 0 auto; }
@@ -18,6 +13,9 @@
   justify-content: space-between;
   align-items: center;
   font-size: 25px; }
+
+.header-nav-logo a {
+  text-decoration: none; }
 
 .header-nav-logo span:nth-of-type(1) {
   color: red;
@@ -37,6 +35,8 @@
   .header-nav-call a {
     color: #d34272;
     text-decoration: none; }
+  .header-nav-call img {
+    margin-bottom: -15px; }
 
 .header-info {
   font-size: 35px;
@@ -52,15 +52,13 @@
     bottom: -60px;
     z-index: 2; }
   .header-info-inner-text {
+    margin: 29px;
     color: white;
     width: 40%;
     padding-top: 50px; }
   .header-info-inner-grand {
     font-size: 15px;
     color: #1a1919; }
-
-.header-center {
-  font-size: 20px; }
 
 .header-block {
   position: absolute;
@@ -80,12 +78,13 @@
     color: black; }
 
 .header-block-inner {
+  padding: 30px 0;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  height: 110px; }
+  align-items: center; }
 
 .features-header {
+  margin-top: 25px;
   text-align: center;
   padding: 25px;
   font-size: 25px; }
@@ -103,12 +102,13 @@
 
 .features-block-item-header {
   display: flex; }
-  .features-block-item-header div span {
+  .features-block-item-header span {
     color: red;
     display: block;
     margin-left: 20px;
-    line-height: 1.5; }
-  .features-block-item-header div span:nth-child(2) {
+    line-height: 1.5;
+    font-size: 23px; }
+  .features-block-item-header span:nth-child(2) {
     color: #1dbb90; }
 
 .features-block-item-text {
@@ -126,20 +126,11 @@
 
 .check-text {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap; }
   .check-text img {
     width: 210px;
     height: auto; }
-
-.sing {
-  padding: 50px 0px;
-  text-align: center;
-  font-size: 25px; }
-  .sing span:nth-child(1) {
-    color: #1dbb90; }
-  .sing span:nth-child(2) {
-    color: #d34272; }
 
 .membership-block-item {
   width: 280px;
@@ -207,41 +198,56 @@
   .membership-block-item-enter:nth-child(3) h2 {
     background-color: #d34272; }
 
-.sing-header-retro {
-  display: flex; }
-  .sing-header-retro p:nth-child(1) {
-    color: #1dbb90; }
-  .sing-header-retro p:nth-child(2) {
-    color: #d34272; }
-
-.sing-header-features-inner {
-  padding: 90px 0 0 105px;
+.sing {
   font-size: 25px;
-  margin: 20px; }
-  .sing-header-features-inner span:nth-child(1) {
+  text-align: center;
+  padding: 50px 0px; }
+  .sing span {
     color: #1dbb90; }
-  .sing-header-features-inner span:nth-child(2) {
+  .sing span:nth-child(2) {
     color: #d34272; }
 
-.sing-header-features-inner-info-img-grand {
-  margin-top: 25px;
+.costumers {
+  margin: 50px 0;
+  font-size: 25px;
   display: flex;
-  margin-left: 90px;
-  width: 430px; }
-  .sing-header-features-inner-info-img-grand img {
-    width: 48px;
-    height: 48px; }
-  .sing-header-features-inner-info-img-grand p {
-    line-height: 1.5;
-    padding-left: 12px; }
-
-.sing-up-header {
-  width: 2300px;
-  height: 2000px;
-  font-size: 25px;
-  margin-left: 100px; }
-  .sing-up-header span:nth-child(1) {
-    color: #1dbb90; }
-  .sing-up-header span:nth-child(2) {
+  justify-content: space-between; }
+  .costumers span:nth-child(1) {
+    color: green; }
+  .costumers span:nth-child(2) {
     color: #d34272; }
+  .costumers-say {
+    width: 45%; }
+  .costumers-nav {
+    margin-bottom: 30px; }
+  .costumers .costumers-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+  .costumers .costumers-img {
+    padding-right: 25px; }
+  .costumers .costumers-tool {
+    font-size: 15px; }
+    .costumers .costumers-tool span:nth-child(2) {
+      color: #1dbb90; }
+    .costumers .costumers-tool span:nth-child(3) {
+      color: #d34272; }
+  .costumers .custumers-more {
+    width: 40%;
+    text-align: center; }
+    .costumers .custumers-more-video {
+      margin-top: 30px; }
+    .costumers .custumers-more video {
+      width: 100%; }
+
+.newsletter {
+  padding: 25px;
+  background: #d34272;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .newsletter .newsletter-logo {
+    display: flex;
+    align-items: center; }
 /*# sourceMappingURL=style.css.map */

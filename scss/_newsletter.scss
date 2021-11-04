@@ -1,0 +1,13 @@
+.newsletter{
+    padding: 25px;
+    background: $red  ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .newsletter-logo{
+        display: flex;  
+        align-items: center;
+    }
+}

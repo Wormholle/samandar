@@ -8,8 +8,10 @@
     }
 
     &-nav-logo {
-
-        span:nth-of-type(1) {
+        a{  
+            text-decoration: none;
+        }
+        span:nth-of-type(1) {   
             color: red;
             font-size: 25px;
         }
@@ -23,7 +25,6 @@
             font-size: 12px;
             text-align: center;
         }
-
     }
 
     &-nav-call {
@@ -31,9 +32,12 @@
         font-size: 20px;
 
         a {
-            color: $red ;
-
+            color: $red;
             text-decoration: none;
+        }
+
+        img {
+            margin-bottom: -15px;
         }
     }
 
@@ -53,13 +57,14 @@
             position: relative;
             bottom: -60px;
             z-index: 2;
-            
+
         }
 
         &-text {
+            margin: 29px;
             color: white;
             width: 40%;
-            padding-top: 50px   ;
+            padding-top: 50px;
         }
 
         &-grand {
@@ -69,42 +74,35 @@
 
     }
 
-   
-    
-}
 
-.header{
-    &-center{
-        font-size:20px; 
+
+    &-block {
+        position: absolute;
+        height: 110 px;
+        width: 100%;
+        bottom: 0;
+        background: #d34272;
+
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            background-color: $green;
+            color: #fff;
+            padding: 15px 25px;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            background-color: #fff;
+            color: black;
+
+        }
     }
-}
 
-.header-block{
-    position: absolute;
-    height: 110 px;
-    width: 100%;
-    bottom: 0   ;
-    background: #d34272;
-
-    a {
-        font-size: 20px;
-        text-decoration: none;
-        background-color: $green;
-        color: #fff;
-        padding: 15px 25px;
-        margin-left: 20px               ;
+    &-block-inner {
+        padding: 30px 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
-
-    a:hover {
-        background-color: #fff;
-        color: black;
-    
-    }
-}   
-
-.header-block-inner{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 110px;
 }

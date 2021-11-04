@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.wrapper{
-    width: 1248px;
-    margin: 0 auto;
-    border:1px #000 solid;
-}
 
 .container {
     max-width: 1100px;
@@ -22,5 +17,6 @@ $black:#474747;
 
 @import "header";
 @import "features";
-@import "sing up";
-@import"custumers";
+@import "membership";
+@import "custumers";
+@import "newsletter"

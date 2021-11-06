@@ -7,7 +7,27 @@
     align-items: center;
     
     .newsletter-logo{
+        input{
+          padding: 20px ;
+          width: 400px;
+          height: 36px;
+        }
+        padding: px;
         display: flex;  
-        align-items: center;
+        align-items: center;       
     }
 }
+.newsletter-nav{
+    background-color: $red;
+}
+.newsletter-block{
+    h2{
+        color: white;
+
+    }
+}
+.copy{
+    margin: 25px;  
+    display: flex;
+    justify-content: space-between;
+} 
